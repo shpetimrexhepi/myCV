@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+body{
+    font-family: 'Tilt Neon', sans-serif;
+    background-color: #53bf51;
+}
+
+.img1{
+    border-radius: 80%;
+}
+
+
+.table1{
+    font-family: 'Young Serif', serif;
+    background-color: #618264
+}
+
+.table2{
+    background-color: #79AC78;}
+
+.main-tr{
+    background-color: #B0D9B1;
+}
+
+.td-class{
+    background-color: #D0E7D2;
+    box-shadow: inset 0px 0px 12px 2px rgba(0,0,0,0.75);
+}
+
+table {
+    box-shadow: 3px 0px 20px 11px rgba(0,0,0,0.75);
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.form1{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    width: 260px;
+    background-color: #79AC78;
+    box-shadow: 3px 0px 20px 11px rgba(0,0,0,0.75);
+}
+
+input{
+    width: 100%;
+    background-color: transparent;
+    border: 0px;
+    padding: 8px 0px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+
+input:focus {
+    border: 1px solid black;
+}
+
+
+button {
+    background-color: gray;
+    border: 0px;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: black;
+    background-color: aliceblue;
+}
+
+.contact::before{
+    content: '📫';
+}
+
+.contact-button{
+    position: fixed;
+    width: 20%;
+}
